@@ -8,4 +8,4 @@
 * [Arquitetura do Projeto](dudaflix/arquitetura-do-projeto.md)
 * [Front-end (React)](dudaflix/front-end-react.md)
 * [Back-end (Node.js)](dudaflix/back-end-node.js.md)
-* [3. Banco de Dados (MongoDB) itled](dudaflix/3.-banco-de-dados-mongodb-itled.md)
+* [Banco de Dados (MongoDB)](dudaflix/banco-de-dados-mongodb.md)
