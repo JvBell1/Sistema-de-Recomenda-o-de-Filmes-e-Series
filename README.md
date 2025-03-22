@@ -2,6 +2,7 @@
 description: O núcleo do projeto
 ---
 Alunos:
+
 João Victor de Belli - 2312130002  
 
 Pedro Luiz Marra - 2312130181
