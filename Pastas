@@ -1,1 +1,19 @@
-
+/movie-recommendation-system
+│
+├── /client                  # Front-end
+│   ├── index.html           # Página principal
+│   ├── style.css            # Estilos
+│   └── script.js            # Lógica do front-end
+│
+├── /server                  # Back-end
+│   ├── app.js               # Arquivo principal do servidor
+│   ├── routes.js            # Rotas da API
+│   ├── controllers.js       # Controladores para gerenciar a lógica
+│   └── database.js          # Conexão com o banco de dados
+│
+├── /data                    # Dados
+│   └── movies.json          # Arquivo JSON com dados de filmes (opcional)
+│
+├── .gitignore               # Arquivo para ignorar arquivos no Git
+├── README.md                # Documentação do projeto
+└── package.json             # Dependências do projeto (se for um projeto Node.js)
