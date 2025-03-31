@@ -1,19 +1,23 @@
-/movie-recommendation-system
+/movie-project
 │
-├── /client                  # Front-end
-│   ├── index.html           # Página principal
-│   ├── style.css            # Estilos
-│   └── script.js            # Lógica do front-end
+├── /src                     # Código-fonte do projeto
+│   ├── /models              # Modelos de dados
+│   │   └── movieModel.js    # Modelo de filme
+│   │
+│   ├── /controllers         # Lógica de controle
+│   │   └── movieController.js # Controlador para gerenciar filmes
+│   │
+│   ├── /routes              # Definição de rotas da API
+│   │   └── movieRoutes.js    # Rotas para operações de filmes
+│   │
+│   ├── /utils               # Funções utilitárias
+│   │   └── binaryTree.js     # Implementação da árvore binária
+│   │
+│   └── app.js               # Arquivo principal do aplicativo
 │
-├── /server                  # Back-end
-│   ├── app.js               # Arquivo principal do servidor
-│   ├── routes.js            # Rotas da API
-│   ├── controllers.js       # Controladores para gerenciar a lógica
-│   └── database.js          # Conexão com o banco de dados
-│
-├── /data                    # Dados
-│   └── movies.json          # Arquivo JSON com dados de filmes (opcional)
-│
-├── .gitignore               # Arquivo para ignorar arquivos no Git
-├── README.md                # Documentação do projeto
-└── package.json             # Dependências do projeto (se for um projeto Node.js)
+├── /public                  # Arquivos estáticos (HTML, CSS, JS)
+│   └── index.html           # Interface do usuário
+│   └── style.css            #estilo
+|
+├── package.json             # Dependências e scripts do projeto
+└── README.md                # Documentação do projeto
